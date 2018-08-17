@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   main03.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: stvieira <stvieira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/10 02:25:20 by stvieira          #+#    #+#             */
-/*   Updated: 2018/08/15 18:51:14 by stvieira         ###   ########.fr       */
+/*   Updated: 2018/08/17 10:41:25 by stvieira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,15 +120,25 @@ int     main(void)
 	printf("La chaine fait %d caracteres", ft_strlen(str));
 */
 	// // -----[Ex07]------ //
+/*
+	char tab[] = "abcdef";
+    char tab2[] = "abc\ndef";
+    char tab3[] = "abc\0def";
+ 	char tab4[] = "abc0def";
 
-	char    *str = NULL;
-	char matter[] = "abcdefgh";
-	//           
-	printf ("original string: %s\n", matter);
-	str = ft_strrev(matter);
-	if (str)
-		printf ("Reversed string: %s\n", str);
-	
+		printf("%s\n", "abcdef = fedcba:");
+		ft_strrev(tab);
+		printf("%s\n", tab);
+		printf("%s\n", " * abc:::def * = * fed:::cba *:");
+		ft_strrev(tab2);
+		printf("%s\n", tab2);
+		printf("%s\n", "** abc:::def ** = ** cba **:");
+		ft_strrev(tab3);
+		printf("%s\n", tab3);
+		printf("%s\n", "abc0def = fed0cba:");
+		ft_strrev(tab4);
+		printf("%s\n", tab4);
+*/	
 	// -----[Ex08]------ //
 /*
 	printf("%d\n", ft_atoi("-478"));
