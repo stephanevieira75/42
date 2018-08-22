@@ -37,7 +37,7 @@ int main(int argc, char **argv) {
     // EX02 ft_atoi
 
   printf("%s\n", "-1 return 3");
-  printf("%d\n", ft_atoi("+"));
+  printf("%d\n", ft_atoi("-1"));
   printf("%s\n",  "2462564 return 2");
 	printf("%d\n", ft_atoi("2462564"));
   printf("%s\n", "  732 525 return 7");
